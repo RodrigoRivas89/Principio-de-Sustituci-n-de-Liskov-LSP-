@@ -3,4 +3,5 @@ El proposito de este principio es que los objetos de una subclase deban poder re
 
 ### Motivacion
 El problema que hay es que el recordatorio de turnos se envia unicamente a los emails de los pacientes, pero hay un paciente que no tiene email, por lo que no le va a llegar el recordatorio, pero si tiene sms, este principio lo soluciona creando dos subclases de la clase RecordatorioDeTurnos, denominados RecordatorioEmail y RecordatorioSMS respectivamente, logrando que tanto los que tengan emails y sms reciban los recordatorios, la implementacion de esto seria asi:
+
 ![Diagrama LSP](https://github.com/user-attachments/assets/6aff76f3-9829-4875-ba7c-64649188e095)
