@@ -1,1 +1,0 @@
-# Principio-de-Sustituci-n-de-Liskov-LSP-
